@@ -1,0 +1,44 @@
+{
+    "bg": "https://images.unsplash.com/photo-1550759774-a027cb60b309?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80",
+    "title": "Jiu-JistuQuiz",
+    "description": "Teste os seus conhecimentos sobre a verdadeira arte suave, BJJ",
+    "questions": [
+      {
+        "image": "https://images.unsplash.com/photo-1576149146095-caa19d4de102?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80",
+        "title": "Qual o nome da posição em que os torax dos lutadores ficam aproximados, com o oponente que está por baixo levando uma pressão enorme?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          "10Kg",
+          "Crucifixo Pesado",
+          "Crucifixo",
+          "100Kg"
+        ]
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1542937306-d1056fdd367a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "title": "Qual o nome de uma guarda que também tem um inseto e um filme ?",
+        "description": "Essa eu quero ver haha",
+        "answer": 0,
+        "alternatives": [
+           "Formiga: Homem formiga",
+           "Besouro: Homem besouro",
+           "Aranha: Homem aranha"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#2196f3",
+        "secondary": "#1de9b6",
+        "mainBg": "#212121",
+        "contrastText": "#FFFFFF",
+        "wrong": "#f44336",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+}
