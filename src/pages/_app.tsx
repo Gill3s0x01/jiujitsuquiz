@@ -40,9 +40,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="https://cdn.auth0.com/blog/react-js/react.png" />
       </Head>
       <NextSeo
-        title="React Quiz"
-        description="Desafie e responda perguntas sobre o ecosistema React!"
-        canonical="https://reactquiz.vercel.app"
+        title="Jiu-jitsu Quiz"
+        description="Desafie e responda perguntas sobre o Jiu-jitsu!"
+        canonical="https://jiujitsuquiz.vercel.app"
       />
         <GlobalStyle />
         <Component {...pageProps} />
