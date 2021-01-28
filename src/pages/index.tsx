@@ -12,6 +12,8 @@ import GitHubCorner from '../components/GitHubCorner'
 import QuizContainer from '../components/QuizContainer'
 
 import db from '../../db.json'
+import Input from '../components/Input'
+import Button from '../components/Button'
 
 export default function Home() {
   const router = useRouter();
@@ -31,17 +33,18 @@ export default function Home() {
               e.preventDefault();
               router.push(`/quiz?name=${name}`)
             }}>
-              <input 
+              <Input
+                name="name"
                 placeholder="Digite seu nome"
                 value={name}
                 onChange={(e)=> setName(e.target.value)}
               />
-              <button 
+              <Button
                 type="submit"
                 disabled={name === ''}
               >
                 Jogar {name}
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

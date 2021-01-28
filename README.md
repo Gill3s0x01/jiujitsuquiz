@@ -57,5 +57,5 @@ $ yarn dev
  <p>Lorison Gilles</p>
 </a>
 
-## 💙  Agradecimentos
+## 💜💙💙  Agradecimentos
 Valew[Alura](https://www.alura.com.br) por estar ajudando a comunidade sempre, Tmj🚀.
