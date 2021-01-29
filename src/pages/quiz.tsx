@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react'
-import Widget from '../components/Widget'
-import QuizLogo from '../components/QuizLogo'
-import QuizBackground from '../components/QuizBackground'
-import QuizContainer from '../components/QuizContainer'
-import Button from '../components/Button'
-import AlternativesForm from '../components/AlternativesForm'
+import React, { useState, useEffect } from 'react';
+import Widget from '../components/Widget';
+import QuizLogo from '../components/QuizLogo';
+import QuizBackground from '../components/QuizBackground';
+import QuizContainer from '../components/QuizContainer';
+import Button from '../components/Button';
+import AlternativesForm from '../components/AlternativesForm';
+import Link from  'next/link';
 
-import db from '../../db.json'
+import db from '../../db.json';
 
 function LoadingWidget() {
     return (
