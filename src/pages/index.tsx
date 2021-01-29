@@ -43,7 +43,7 @@ export default function Home() {
                 type="submit"
                 disabled={name === ''}
               >
-                Jogar {name}
+                Comece a Jogar {name}
               </Button>
             </form>
           </Widget.Content>
@@ -57,8 +57,11 @@ export default function Home() {
             <Link href="https://aluraquiz-base-git-main.alura-challenges.vercel.app">
               <a>The legend of zelda</a>
             </Link>
+            <Link href="https://jiujitsuquiz.gilles30.vercel.app/">
+              <a>Voltar para o início</a>
+            </Link>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>A arte marcial mais completa do mundo...</p>
           </Widget.Content>
         </Widget>
         <Footer />
