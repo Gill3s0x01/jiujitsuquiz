@@ -37,6 +37,12 @@ function ResultWidget({ results }) {
                     <li key={resultIndex}>#0{resultIndex + 1} Resultado: {result === true ? 'Correta' : 'Errada'}</li>
                 )}
             </ul>
+
+            <Link href="https://jiujitsuquiz.gilles30.vercel.app/">
+              <a>Voltar para o início</a>
+            </Link>
+
+            
         </Widget.Content>
       </Widget>
     );

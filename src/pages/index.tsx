@@ -58,9 +58,7 @@ export default function Home() {
               <a>The legend of zelda</a>
             </Link>
             
-            <Link href="https://jiujitsuquiz.gilles30.vercel.app/">
-              <a>Voltar para o início</a>
-            </Link>
+            
 
             <p>A arte marcial mais completa do mundo...</p>
           </Widget.Content>
