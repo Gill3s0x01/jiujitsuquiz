@@ -57,8 +57,6 @@ export default function Home() {
             <Link href="https://aluraquiz-base-git-main.alura-challenges.vercel.app">
               <a>The legend of zelda</a>
             </Link>
-            
-            
 
             <p>A arte marcial mais completa do mundo...</p>
           </Widget.Content>

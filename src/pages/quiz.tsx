@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-
 import Widget from '../components/Widget'
 import QuizLogo from '../components/QuizLogo'
 import QuizBackground from '../components/QuizBackground'
@@ -41,7 +40,6 @@ function ResultWidget({ results }) {
             <Link href="https://jiujitsuquiz.gilles30.vercel.app/">
               <a>Voltar para o início</a>
             </Link>
-
             
         </Widget.Content>
       </Widget>
