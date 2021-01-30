@@ -1,10 +1,10 @@
-import { NextSeo } from 'next-seo'
-import type { AppProps } from 'next/app'
-import Head from 'next/head'
-import { ThemeProvider } from 'styled-components'
+import { NextSeo } from 'next-seo';
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import { ThemeProvider } from 'styled-components';
 
-import db from '../../db.json'
-import { GlobalStyle } from '../styles.../global'
+import db from '../../db.json';
+import { GlobalStyle } from '../styles/global';
 
 const theme = db.theme;
 
@@ -19,8 +19,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
       </Head>
       <NextSeo
-        title="React Quiz"
-        description="Desafie e responda perguntas sobre o ecosistema React!"
+        title="Quiz Jiu-jitsu"
+        description="Desafie e responda perguntas sobre o jiu-jitsu, arte suave BJJ!"
         canonical="https://jiujitsuquiz.gilles30.vercel.app/"
       />
         <GlobalStyle />

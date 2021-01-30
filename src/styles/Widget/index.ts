@@ -6,7 +6,6 @@ interface WidgetProps extends StyledComponentBase<any, {}> {
   Banner?: any;
   Topic?: any;
   Result?: any;
-  
 }
 
 const Widget: WidgetProps = styled.div`
@@ -63,7 +62,6 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
-
   & a {
     min-height: 40px;
     width: 100%;
@@ -74,14 +72,12 @@ Widget.Content = styled.div`
     color: ${({ theme }) => theme.colors.contrastText};
     background: rgba(33, 150, 243, 0.35);
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 4px;
     transition: .35s;
   }
-
   & a:hover {
     background-color: ${({ theme }) => theme.colors.primary};
   }
-
   & .icon {
     position: relative;
     left: 50%;
@@ -116,10 +112,7 @@ Widget.Result = styled.li`
   align-items: center;
   padding: 0 15px;
   color: ${({ theme }) => theme.colors.contrastText};
-  border-radius: 8px;
+  border-radius: 4px;
 `;
-
-
-
 
 export default Widget

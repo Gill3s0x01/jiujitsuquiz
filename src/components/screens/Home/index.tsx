@@ -4,12 +4,12 @@ import Link from  'next/link'
 
 import { motion } from 'framer-motion'
 
-import Widget from '../../../styles.../Widget'
+import Widget from '../../../styles/Widget/'
 import QuizLogo from '../../../components/QuizLogo'
-import QuizBackground from '../../../styles.../QuizBackground'
+import QuizBackground from '../../../styles/QuizBackground'
 import Footer from '../../../components/Footer'
 import GitHubCorner from '../../../components/GitHubCorner'
-import QuizContainer from '../../../styles.../QuizContainer'
+import QuizContainer from '../../../styles/QuizContainer'
 import Input from '../../../components/Input'
 import Button from '../../../components/Button'
 
@@ -52,7 +52,7 @@ export default function HomeScreen () {
                         type="submit"
                         disabled={name === ''}
                     >
-                         Vamos Jogar {name}
+                        Vamos Jogar {name}
                     </Button>
                     </form>
                 </Widget.Content>
@@ -103,4 +103,4 @@ export default function HomeScreen () {
             <GitHubCorner projectUrl="https://github.com/Gilles30/" />
         </QuizBackground>
   );
-} 
+}

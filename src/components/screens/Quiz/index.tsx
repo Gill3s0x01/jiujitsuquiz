@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 
 import QuizLogo from '../../QuizLogo';
-import QuizBackground from '../../../styles.../QuizBackground';
-import QuizContainer from '../../../styles.../QuizContainer';
+import QuizBackground from '../../../styles/QuizBackground';
+import QuizContainer from '../../../styles/QuizContainer';
 import LoadingWidget from '../../LoadingWidget';
 import ResultWidget from '../../ResultWidget';
 import QuizWidget from '../../QuizWidget';

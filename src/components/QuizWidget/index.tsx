@@ -1,8 +1,8 @@
 
 import { useState } from 'react'
 
-import Widget from '../../styles.../Widget';
-import AlternativesForm from '../styles/AlternativesForm'
+import Widget from '../../styles/Widget';
+import AlternativesForm from '../../styles/AlternativesForm'
 import Button from '../Button'
 
 import { XCircle, CheckCircle } from 'react-feather'
