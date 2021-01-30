@@ -1,33 +1,10 @@
 import { NextSeo } from 'next-seo'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 
 import db from '../../db.json'
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    color: ${({ theme }: any) => theme.colors.contrastText};
-  }
-  html, body {
-    min-height: 100vh;
-  }
-  #__next {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-`
+import { GlobalStyle } from '../styles/global'
 
 const theme = db.theme;
 
@@ -42,12 +19,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
       </Head>
       <NextSeo
-        title="Jiu-jitsu Quiz"
-        description="Desafie e responda perguntas sobre o Jiu-jitsu!"
-        canonical="https://jiujitsuquiz.vercel.app"
+        title="React Quiz"
+        description="Desafie e responda perguntas sobre o ecosistema React!"
+        canonical="https://jiujitsuquiz.gilles30.vercel.app/"
       />
         <GlobalStyle />
-        {/* // eslint-disable-next-line react/prop-types */}
         <Component {...pageProps} />
       </ThemeProvider>
     </>

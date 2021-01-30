@@ -1,12 +1,8 @@
 <h1 align="center">JIU-JITSU QUIZ</h1>
 
-<h2 align="center">😎 Vamos ver se você conhece a verdadeira arte suave, BJJ!</h2>
-🚧 👷  Em construção...  🚧
-<img src="./assets/jiuquiz.png" />
+<h2 align="center">🍕🥋 Vamos ver se você conhece a verdadeira arte suave, BJJ!</h2>
 
-<h4 align="center"> 
-	🚧 👷  Em construção...  🚧
-</h4>
+<img src="./assets/jiuquiz.png" />
 
 ## 💬 Sobre o projeto
 Jiu Jitsu Quiz - É um projeto feito para testar seus conhecimentos na verdadeira arte suave BJJ, e desafiar seus amigos

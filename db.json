@@ -17,6 +17,31 @@
         ]
       },
       {
+        "image": "https://i.pinimg.com/originals/ca/53/05/ca5305d77713047ae18bdcc306dfbd04.jpg",
+        "title": "Qual o nome da posição do ataque do lutador de baixo, desta imagem ",
+        "description": "Essa é está dificil",
+        "answer": 2,
+        "alternatives": [
+          "Quadrado",
+          "Volta quadrada",
+          "Triangulo",
+          "Triangulação de perna"
+        ]
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/GABRIEL_VELLA_vs_ROMINHO_51.jpg/1200px-GABRIEL_VELLA_vs_ROMINHO_51.jpg",
+        "title": "O oponente de baixo está aplicando um triangulo (quero ver se acertou a questão anterior), a defesa do oponente que está em cima é valida? ",
+        "description": "Eita pedrada ....",
+        "answer": 0,
+        "alternatives": [
+          "Sim, pois defendo o braço com as duas mãos ajuda no alivio do pescoço e evita pegar uma chave de braço, ",
+          "Não, pois com o braço nessa posição ele está levando uma pena conforme a regra do BJJ",
+          "Sim, mas essa foi na sorte",
+          "Não, ele vai perder de qualquer forma"
+        ]
+      },
+
+      {
         "image": "https://images.unsplash.com/photo-1542937306-d1056fdd367a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
         "title": "Qual o nome de uma guarda que também tem um inseto e um filme ?",
         "description": "Essa eu quero ver haha",
@@ -29,7 +54,7 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-base-git-main.alura-challenges.vercel.app"
     ],
     "theme": {
       "colors": {
