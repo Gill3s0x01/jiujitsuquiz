@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 
-import Widget from '../../styles/Widget';
+import Widget from '../../styles.../Widget';
 import AlternativesForm from '../styles/AlternativesForm'
 import Button from '../Button'
 

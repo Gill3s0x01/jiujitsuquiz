@@ -9,7 +9,7 @@ const InputBase = styled.input`
     font-size: 14px;
     letter-spacing: 0.15px;
     border: 2px solid ${({ theme }) => theme.colors.primary};
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: ${({ theme }) => theme.colors.mainBg};
     outline: none;
     transition: .35s;

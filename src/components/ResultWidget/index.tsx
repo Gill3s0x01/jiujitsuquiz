@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import Widget from '../../styles/Widget'
+import Widget from '../../styles.../Widget'
 import Link from  'next/link'
 
 export default function ResultWidget({ results }) {

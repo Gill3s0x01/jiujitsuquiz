@@ -11,12 +11,14 @@ const QuizBackground = styled.div`
   background-image: url(${({ backgroundImage }: Props) => backgroundImage});
   background-color: ${({ theme }) => theme.colors.mainBg};
   flex: 1;
+  border-radius: 10px;
   @media screen and (max-width: 500px) {
     background-image: none;
     &:after {
       content: "";
       background-size: cover;
     background-position: center;
+    border-radius: 10px;
       background-image:
         linear-gradient(transparent, ${({ theme }) => theme.colors.mainBg}),
         url(${({ backgroundImage }) => backgroundImage});

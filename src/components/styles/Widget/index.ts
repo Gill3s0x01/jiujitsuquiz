@@ -74,7 +74,7 @@ Widget.Content = styled.div`
     color: ${({ theme }) => theme.colors.contrastText};
     background: rgba(33, 150, 243, 0.35);
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 8px;
     transition: .35s;
   }
 
@@ -116,7 +116,7 @@ Widget.Result = styled.li`
   align-items: center;
   padding: 0 15px;
   color: ${({ theme }) => theme.colors.contrastText};
-  border-radius: 4px;
+  border-radius: 8px;
 `;
 
 

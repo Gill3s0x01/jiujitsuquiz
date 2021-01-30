@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { ThemeProvider } from 'styled-components'
 
 import db from '../../db.json'
-import { GlobalStyle } from '../styles/global'
+import { GlobalStyle } from '../styles.../global'
 
 const theme = db.theme;
 
