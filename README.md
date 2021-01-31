@@ -52,6 +52,6 @@ $ yarn dev
  <img style="border-radius:50%" width="100px; "src="https://avatars.githubusercontent.com/u/54437398?s=460&u=72d88fd3a7e3a95041d7771f3a5e6ad7f33b8740&v=4"/>
  <p>Lorison Gilles</p>
 </a>
-
+<br>
 ## 💜💙💙  Agradecimentos
 Valew[Alura](https://www.alura.com.br) por estar ajudando a comunidade sempre, Tmj🚀.
